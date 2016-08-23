@@ -1,0 +1,29 @@
+.btn
+	position: absolute
+	right: 24px
+	top: 0
+	bottom: 0
+	display: flex
+	align-items: center
+
+	&__value
+		display: inline-block
+		font-size: 13px
+		line-height: 16px
+		text-transform: uppercase
+		cursor: pointer
+		border-bottom: 1px solid transparent
+		transition: all .15s
+		position: relative
+		top: 2px
+
+		@media (max-width: $mobile)
+			text-transform: none
+
+		&:hover
+			border-bottom-color: #fff
+
+	@media (max-width: $mobile)
+		right: 12px
+		position: relative
+		text-align: right

@@ -1,0 +1,56 @@
+.sort
+	font-size: 13px
+	line-height: 15px
+	padding: 10px 0
+	border-bottom: 1px solid #EEEEEE
+	margin-bottom: 10px
+	position: relative
+	display: flex
+	height: 45px
+	box-sizing: border-box
+	align-items: center
+	justify-content: space-between
+
+	&__item
+		color: #1E88E5
+		cursor: pointer
+		// border-bottom-width: 1px
+		// border-bottom-style: dotted
+		// border-bottom-color: inherit
+
+		&.-selected
+			color: #212121
+
+	&__label,
+	&__item
+		display: inline-block
+		margin-right: 10px
+
+	&__label
+		color: #757575
+
+	&__views
+		display: flex
+		align-items: center
+
+		@media (max-width: $mobile)
+			display: none
+
+	&__view
+		width: 24px
+		height: 24px
+		display: block
+		box-sizing: border-box
+		margin-left: 5px
+
+		svg
+			fill: #E0E0E0
+			transition: fill .15s
+			cursor: pointer
+
+			&:hover
+				fill: #1E88E5
+
+			&.-selected
+				fill: #212121
+				cursor: default

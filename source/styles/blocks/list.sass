@@ -1,0 +1,33 @@
+.list
+	margin-bottom: 100px
+
+	&__items
+		display: flex
+		flex-direction: column
+		padding-top: 10px
+
+		&.-grid
+			flex-direction: row
+			flex-wrap: wrap
+			margin-right: -20px
+			.person
+				width: calc(33.3334% - 20px)
+				flex-direction: column
+				align-items: center
+				margin-right: 20px
+				margin-bottom: 20px
+				border: 1px solid #E0E0E0
+
+				&__avatar
+					margin-bottom: 20px
+
+				&__content
+					text-align: center
+
+				@media (max-width: $mobile)
+					width: calc(50% - 20px)
+
+			@media (max-width: $mobile)
+				flex-direction: row
+				flex-wrap: wrap
+				margin-right: -20px

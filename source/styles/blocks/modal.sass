@@ -1,0 +1,43 @@
+.modal
+	background-color: #fff
+	position: relative
+	width: 80%
+	max-width: 500px
+
+	&__close
+		position: absolute
+		height: 64px
+		top: 0
+		right: 24px
+		display: flex
+		align-items: center
+
+		svg
+			fill: #fff
+			cursor: pointer
+			transition: transform .15s
+
+			&:hover
+				transform: scale(1.2)
+
+	&__content
+		padding: 0 24px 30px
+
+	input[type='text'],
+	textarea
+		border: none
+		display: block
+		box-sizing: border-box
+		width: 100%
+		font-size: 16px
+		line-height: 21px
+		border-bottom: 2px solid #BDBDBD
+		padding: 10px 0
+		outline: none
+		margin-bottom: 10px
+
+		&:focus
+			border-bottom: 2px solid #3F51B5
+
+	&__btns
+		text-align: right

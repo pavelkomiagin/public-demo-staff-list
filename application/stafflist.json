@@ -1,0 +1,52 @@
+{
+	"items": [
+		{
+			"id": 0,
+			"fname": "Андрей",
+			"lname": "Шасюткин",
+			"role": "PHP разработчик",
+			"avatar": "https://habrastorage.org/getpro/moikrug/uploads/user/100/008/387/8/avatar/medium_9128f5cae59a1d70189fd505bcfc1960.jpg",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id": 1,
+			"fname": "Андрей",
+			"lname": "Горохов",
+			"role": "Frontend разработчик",
+			"avatar": "https://habrastorage.org/getpro/moikrug/uploads/user/100/009/504/2/avatar/medium_cfa40697bd7f748ebe70447300fa2750.jpg",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+		},
+		{
+			"id": 2,
+			"fname": "Шамиль",
+			"lname": "Аиматулаев",
+			"role": "Старший frontend разработчик",
+			"avatar": "https://habrastorage.org/getpro/moikrug/uploads/user/100/000/978/4/avatar/medium_84b7b06b3629ac3823d63ad8fc4c484f.png",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+		},
+		{
+			"id": 3,
+			"fname": "Борис",
+			"lname": "Зурдашев",
+			"role": "Frontend разработчик",
+			"avatar": "https://habrastorage.org/getpro/moikrug/uploads/user/100/013/235/0/avatar/medium_42d4221c8432c34ab95f41de4dfe8766.jpg",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id": 4,
+			"fname": "Геннадий",
+			"lname": "Никитин",
+			"role": "Frontend разработчик",
+			"avatar": "https://habrastorage.org/getpro/moikrug/uploads/user/100/012/449/7/avatar/medium_6960bc34a37ecd33b94af9ba70ab190e.jpg",
+			"desc": "Lorem ipsum dolor sit amet."
+		},
+		{
+			"id": 5,
+			"fname": "Денис",
+			"lname": "Алмазов",
+			"role": "PHP разработчик",
+			"avatar": "https://habracdn.net/mk/assets/defaults/avatars/medium_male_default-c205ae1bb0815f0e7044f60f82f7e613.png",
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		}
+	]
+}
